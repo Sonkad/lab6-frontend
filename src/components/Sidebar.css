@@ -1,0 +1,16 @@
+.sidebar-container {
+    background-color: #D1E8E2;
+    padding: 20px;
+    width: 250px;
+    box-shadow: 4px 0 8px rgba(0, 0, 0, 0.1);
+  }
+  
+  .sidebar-link {
+    color: #19747E;
+    text-decoration: none;
+  }
+  
+  .sidebar-link:hover {
+    text-decoration: underline;
+  }
+  

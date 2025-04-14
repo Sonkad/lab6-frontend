@@ -1,0 +1,16 @@
+.album-card {
+    background-color: #A9D6E5;
+    padding: 15px;
+    border-radius: 10px;
+    margin-bottom: 10px;
+  }
+  
+  .album-card h3 {
+    font-size: 20px;
+    margin: 5px 0;
+  }
+  
+  .album-card p {
+    font-size: 14px;
+  }
+  

@@ -1,0 +1,84 @@
+/* Common Layout Styles */
+.layout-container {
+    display: flex;
+    flex-direction: column;
+    height: 100vh;
+    font-family: 'Arial', sans-serif;
+  }
+  
+  /* Header Styles */
+  header {
+    background-color: #19747E;
+    color: white;
+    padding: 15px;
+    text-align: center;
+    font-size: 24px;
+  }
+  
+  /* Navbar Styles */
+  nav {
+    background-color: #A9D6E5;
+    padding: 10px;
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+  }
+  
+  nav a {
+    color: #19747E;
+    text-decoration: none;
+    font-size: 18px;
+    padding: 10px;
+  }
+  
+  nav a:hover {
+    background-color: #19747E;
+    color: white;
+    border-radius: 5px;
+  }
+  
+  /* Body Container with Sidebar and Main Content */
+  .body-container {
+    display: flex;
+    flex-grow: 1;
+    background-color: #E2E2E2;
+  }
+  
+  /* Sidebar Styles */
+  aside {
+    background-color: #D1E8E2;
+    width: 250px;
+    padding: 20px;
+    box-shadow: 4px 0 8px rgba(0, 0, 0, 0.1);
+  }
+  
+  aside h2 {
+    color: #19747E;
+  }
+  
+  aside p {
+    color: #333;
+  }
+  
+  /* Main Content Styles */
+  .main-content {
+    flex-grow: 1;
+    padding: 20px;
+    background-color: white;
+    margin-left: 20px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  }
+  
+  /* Footer Styles */
+  footer {
+    background-color: #19747E;
+    color: white;
+    text-align: center;
+    padding: 15px;
+    font-size: 14px;
+  }
+  
+  footer p {
+    margin: 0;
+  }
+  
